@@ -1,6 +1,6 @@
 # AimLite 0.1.1 release status
 
-MIT licensed. Audited preview and database-integrity issues have been fixed in this source tree. Publication awaits the owner's GitHub repository URL and final artifact checks.
+MIT licensed. Audited preview and database-integrity issues have been fixed in this source tree. The [0.1.1 preview release](https://github.com/rhyx-s/AimLite/releases/tag/v0.1.1) is public.
 
 ## Verified source
 
@@ -18,6 +18,6 @@ The project includes MIT and collected notices for 222 runtime dependency entrie
 
 Windows builds are unsigned. Clean-device installation and offline WebView2 installation remain untested. Use only hashes attached to the actual 0.1.1 release; original 0.1.0 handoff binaries do not contain these fixes. No malware-free, absolute security, website-score-equivalence or Roblox-transfer claim is made.
 
-Native smoke of the final portable was attempted on 2026-10-25. It timed out because an existing installed AimLite instance prevented the new process from opening under single-instance protection. Native smoke remains incomplete; close the installed instance before retrying.
+Native smoke of the exact packaged portable executable passed all ten checks on 2026-10-25 after the previous installed instance was closed: launch and 27 modes, completed/cancelled run persistence, CSV export, clean shutdown, history/settings recovery, 100 restarts and single-instance behavior. Executable SHA256: `6a15eb1742bbf9ebd514bfbc61c6a1536af96c7114699fdf038cf496ca10dad5`. This is build-PC testing, not clean-device installation evidence.
 
 Normal installer, portable ZIP and offline installer were rebuilt as 0.1.1. SHA256SUMS.txt and manifest.json were generated and checked. The offline runtime was bundled successfully; installation on a clean machine remains untested.

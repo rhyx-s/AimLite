@@ -6,7 +6,7 @@ Practise precision, flicks, reaction, target switching and tracking across 27 mo
 
 ## Download and run
 
-Windows downloads belong in this repository's **Releases** tab, separate from source code. This public repository is currently being prepared; no release has been published by this preparation session.
+Download the [0.1.1 preview release](https://github.com/rhyx-s/AimLite/releases/tag/v0.1.1). Source code is available under MIT; Windows packages are unsigned.
 
 | Package | Purpose |
 |---|---|

@@ -60,9 +60,9 @@ npm.cmd run release
 # or: powershell -NoProfile -ExecutionPolicy Bypass -File scripts\release.ps1 [-SkipOffline] [-SkipSmoke] [-SkipCi]
 ```
 
-Steps: preflight â†’ version consistency (package.json, Cargo.toml, tauri.conf.json) â†’ `npm ci` â†’ `npm run verify` â†’ normal build â†’ portable zip â†’ offline build â†’ rebuild normal â†’ extract the zip to a unique staging directory under `release/` and run the native smoke test from there â†’ `SHA256SUMS.txt` + `manifest.json` â†’ re-verify hashes. Exit codes: 2 prerequisites, 3 version mismatch, 4 npm ci, 5 verification, 6 build, 7 portable smoke, 8 hashes.
+Steps: preflight Ã¢â€ â€™ version consistency (package.json, Cargo.toml, tauri.conf.json) Ã¢â€ â€™ `npm ci` Ã¢â€ â€™ `npm run verify` Ã¢â€ â€™ normal build Ã¢â€ â€™ portable zip Ã¢â€ â€™ offline build Ã¢â€ â€™ rebuild normal Ã¢â€ â€™ extract the zip to a unique staging directory under `release/` and run the native smoke test from there Ã¢â€ â€™ `SHA256SUMS.txt` + `manifest.json` Ã¢â€ â€™ re-verify hashes. Exit codes: 2 prerequisites, 3 version mismatch, 4 npm ci, 5 verification, 6 build, 7 portable smoke, 8 hashes.
 
-Output: `release\<version>\` â€” `AimLite_<v>_x64-setup.exe`, `AimLite_<v>_x64-offline-setup.exe`, `AimLite_<v>_x64-portable.zip`, `SHA256SUMS.txt`, `manifest.json`.
+Output: `release\<version>\` Ã¢â‚¬â€ `AimLite_<v>_x64-setup.exe`, `AimLite_<v>_x64-offline-setup.exe`, `AimLite_<v>_x64-portable.zip`, `SHA256SUMS.txt`, `manifest.json`.
 
 ## Native tests on a built app
 
@@ -79,10 +79,10 @@ Reports and screenshots go to `docs\evidence\`.
 
 ## Generated files
 
-- `node scripts/gen-presets.mjs <REA modes.json> [site-averages.json]` â€” regenerates `src/presets/official.json`, `source-map.json`, `site-averages.json` from the REA archive (dev time only).
-- `node scripts/gen-fidelity.mjs` â€” `docs/FIDELITY-MATRIX.md`.
-- `node scripts/gen-licenses.mjs` â€” `docs/THIRD-PARTY-LICENSES.md`.
-- `node scripts/gen-icon.mjs` then `npm.cmd run tauri -- icon src-tauri/icons/app-icon.png -o src-tauri/icons` â€” the original icon set.
+- `node scripts/gen-presets.mjs <REA modes.json> [site-averages.json]` Ã¢â‚¬â€ regenerates `src/presets/official.json`, `source-map.json`, `site-averages.json` from the REA archive (dev time only).
+- `node scripts/gen-fidelity.mjs` Ã¢â‚¬â€ `docs/FIDELITY-MATRIX.md`.
+- `node scripts/gen-licenses.mjs` Ã¢â‚¬â€ `docs/THIRD-PARTY-LICENSES.md`.
+- `node scripts/gen-icon.mjs` then `npm.cmd run tauri -- icon src-tauri/icons/app-icon.png -o src-tauri/icons` Ã¢â‚¬â€ the original icon set.
 
 ## Identifier and data folder
 
@@ -90,4 +90,4 @@ The app identifier is `local.devideus.aimlite` (src-tauri/tauri.conf.json). It d
 
 ## Signing and CI
 
-Builds are unsigned. `.github/workflows/build.yml` runs only when manually dispatched, builds and uploads run artifacts, and does not publish releases. The source is MIT licensed and the audited fixes are included. Downloadable release publication awaits final native verification documented in `docs/RELEASE-STATUS.md`.
+Builds are unsigned. `.github/workflows/build.yml` runs only when manually dispatched, builds and uploads run artifacts, and does not publish releases. The source is MIT licensed and the audited fixes are included. The 0.1.1 preview release passed packaged native smoke checks; see `docs/RELEASE-STATUS.md` for evidence and remaining installation limits.
