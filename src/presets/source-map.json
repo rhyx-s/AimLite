@@ -1,0 +1,167 @@
+{
+ "note": "Private compatibility mapping (not shown in the UI). Source configs captured 2026-10-22 by the REA pass.",
+ "modes": [
+  {
+   "id": "official:pinpoint-pulse",
+   "sourceId": 1,
+   "sourceName": "Exact Aiming",
+   "sourceUrl": "https://aim400kg.com/game/1"
+  },
+  {
+   "id": "official:pinpoint-sudden-death",
+   "sourceId": 11,
+   "sourceName": "EA Survival",
+   "sourceUrl": "https://aim400kg.com/game/11"
+  },
+  {
+   "id": "official:pixel-dot",
+   "sourceId": 13,
+   "sourceName": "Dot",
+   "sourceUrl": "https://aim400kg.com/game/13"
+  },
+  {
+   "id": "official:hub-line",
+   "sourceId": 5,
+   "sourceName": "Accurate Quickness",
+   "sourceUrl": "https://aim400kg.com/game/5"
+  },
+  {
+   "id": "official:wide-line",
+   "sourceId": 7,
+   "sourceName": "AQ 2",
+   "sourceUrl": "https://aim400kg.com/game/7"
+  },
+  {
+   "id": "official:triple-bonus",
+   "sourceId": 12,
+   "sourceName": "AQR",
+   "sourceUrl": "https://aim400kg.com/game/12"
+  },
+  {
+   "id": "official:hub-flick",
+   "sourceId": 2,
+   "sourceName": "Flick Aiming",
+   "sourceUrl": "https://aim400kg.com/game/2"
+  },
+  {
+   "id": "official:pair-sweep",
+   "sourceId": 17,
+   "sourceName": "FA Double",
+   "sourceUrl": "https://aim400kg.com/game/17"
+  },
+  {
+   "id": "official:trio-sweep",
+   "sourceId": 19,
+   "sourceName": "FA Triple",
+   "sourceUrl": "https://aim400kg.com/game/19"
+  },
+  {
+   "id": "official:swarm-sweep",
+   "sourceId": 18,
+   "sourceName": "FA Multi",
+   "sourceUrl": "https://aim400kg.com/game/18"
+  },
+  {
+   "id": "official:pair-sweep-timed",
+   "sourceId": 323,
+   "sourceName": "FA Double Classic",
+   "sourceUrl": "https://aim400kg.com/game/323"
+  },
+  {
+   "id": "official:hub-reflex",
+   "sourceId": 6,
+   "sourceName": "Flick Reaction",
+   "sourceUrl": "https://aim400kg.com/game/6"
+  },
+  {
+   "id": "official:quick-reflex",
+   "sourceId": 8,
+   "sourceName": "Fast Reaction",
+   "sourceUrl": "https://aim400kg.com/game/8"
+  },
+  {
+   "id": "official:small-reflex",
+   "sourceId": 10,
+   "sourceName": "Reflex Aiming",
+   "sourceUrl": "https://aim400kg.com/game/10"
+  },
+  {
+   "id": "official:wait-click",
+   "sourceId": 3,
+   "sourceName": "Press Reaction",
+   "sourceUrl": "https://aim400kg.com/game/3"
+  },
+  {
+   "id": "official:wait-flick",
+   "sourceId": 20,
+   "sourceName": "PR Flick",
+   "sourceUrl": "https://aim400kg.com/game/20"
+  },
+  {
+   "id": "official:wait-pair",
+   "sourceId": 21,
+   "sourceName": "PR Double",
+   "sourceUrl": "https://aim400kg.com/game/21"
+  },
+  {
+   "id": "official:wait-trio",
+   "sourceId": 22,
+   "sourceName": "PR Triple",
+   "sourceUrl": "https://aim400kg.com/game/22"
+  },
+  {
+   "id": "official:clear-200",
+   "sourceId": 16,
+   "sourceName": "Mass Click",
+   "sourceUrl": "https://aim400kg.com/game/16"
+  },
+  {
+   "id": "official:waves-150",
+   "sourceId": 316,
+   "sourceName": "Mass Click Classic",
+   "sourceUrl": "https://aim400kg.com/game/316"
+  },
+  {
+   "id": "official:drift-200",
+   "sourceId": 9,
+   "sourceName": "RA 200 Hits",
+   "sourceUrl": "https://aim400kg.com/game/9"
+  },
+  {
+   "id": "official:chase-fast",
+   "sourceId": 15,
+   "sourceName": "Tracking Hard",
+   "sourceUrl": "https://aim400kg.com/game/15"
+  },
+  {
+   "id": "official:chase-steady",
+   "sourceId": 385,
+   "sourceName": "Tracking Medium",
+   "sourceUrl": "https://aim400kg.com/game/385"
+  },
+  {
+   "id": "official:chase-switch",
+   "sourceId": 602,
+   "sourceName": "Switch Tracking",
+   "sourceUrl": "https://aim400kg.com/game/602"
+  },
+  {
+   "id": "official:chase-strafe",
+   "sourceId": 637,
+   "sourceName": "Strafe Tracking",
+   "sourceUrl": "https://aim400kg.com/game/637"
+  },
+  {
+   "id": "official:orbit-chaos",
+   "sourceId": 14,
+   "sourceName": "Tricky Aiming",
+   "sourceUrl": "https://aim400kg.com/game/14"
+  },
+  {
+   "id": "official:speed-up",
+   "sourceId": 23,
+   "sourceName": "Faster Faster",
+   "sourceUrl": "https://aim400kg.com/game/23"
+  }
+ ]
+}

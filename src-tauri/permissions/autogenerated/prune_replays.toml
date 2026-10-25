@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prune-replays"
+description = "Enables the prune_replays command without any pre-configured scope."
+commands.allow = ["prune_replays"]
+
+[[permission]]
+identifier = "deny-prune-replays"
+description = "Denies the prune_replays command without any pre-configured scope."
+commands.deny = ["prune_replays"]

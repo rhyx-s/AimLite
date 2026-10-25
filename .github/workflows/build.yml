@@ -1,0 +1,30 @@
+# Manual Windows verification/build. No push/PR trigger or release publishing.
+# Builds and checks AimLite on a Windows runner and uploads the unsigned artifacts to the run.
+# No secrets, no signing, no GitHub Release creation.
+name: build
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc
+          components: rustfmt, clippy
+      - run: npm ci
+      - run: npm run verify
+      - run: npm run tauri -- build --target x86_64-pc-windows-msvc --bundles nsis
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aimlite-windows-unsigned
+          path: |
+            src-tauri/target/x86_64-pc-windows-msvc/release/aimlite.exe
+            src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis/*.exe

@@ -1,0 +1,32 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "The AimLite main window: its own typed commands plus fullscreen control. No shell, no filesystem plugin, no remote content.",
+  "windows": ["main"],
+  "local": true,
+  "permissions": [
+    "core:window:allow-set-fullscreen",
+    "core:window:allow-is-fullscreen",
+    "allow-bootstrap",
+    "allow-save-settings",
+    "allow-upsert-profile",
+    "allow-delete-profile",
+    "allow-upsert-preset",
+    "allow-delete-preset",
+    "allow-set-favourite",
+    "allow-upsert-routine",
+    "allow-delete-routine",
+    "allow-save-run",
+    "allow-query-runs",
+    "allow-personal-bests",
+    "allow-get-replay",
+    "allow-delete-run",
+    "allow-prune-replays",
+    "allow-export-runs-csv",
+    "allow-export-text",
+    "allow-import-preset-file",
+    "allow-backup-database",
+    "allow-reset-data",
+    "allow-diagnostics"
+  ]
+}

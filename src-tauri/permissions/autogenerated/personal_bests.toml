@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-personal-bests"
+description = "Enables the personal_bests command without any pre-configured scope."
+commands.allow = ["personal_bests"]
+
+[[permission]]
+identifier = "deny-personal-bests"
+description = "Denies the personal_bests command without any pre-configured scope."
+commands.deny = ["personal_bests"]

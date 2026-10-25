@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-export-runs-csv"
+description = "Enables the export_runs_csv command without any pre-configured scope."
+commands.allow = ["export_runs_csv"]
+
+[[permission]]
+identifier = "deny-export-runs-csv"
+description = "Denies the export_runs_csv command without any pre-configured scope."
+commands.deny = ["export_runs_csv"]

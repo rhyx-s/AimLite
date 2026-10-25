@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-upsert-preset"
+description = "Enables the upsert_preset command without any pre-configured scope."
+commands.allow = ["upsert_preset"]
+
+[[permission]]
+identifier = "deny-upsert-preset"
+description = "Denies the upsert_preset command without any pre-configured scope."
+commands.deny = ["upsert_preset"]

@@ -1,0 +1,113 @@
+{
+ "note": "Archived site averages from captured pages, 2026-10-22. Not current and not a distribution: never derive percentiles.",
+ "averages": {
+  "official:pinpoint-pulse": {
+   "value": 23892,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:pinpoint-sudden-death": {
+   "value": 22244,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:pixel-dot": {
+   "value": 21101,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:hub-line": {
+   "value": 18556,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:wide-line": {
+   "value": 20929,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:triple-bonus": {
+   "value": 44332,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:hub-flick": {
+   "value": 9756,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:pair-sweep": {
+   "value": 17297,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:trio-sweep": {
+   "value": 4385,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:swarm-sweep": {
+   "value": 30245,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:pair-sweep-timed": {
+   "value": 13339,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:hub-reflex": {
+   "value": 12032,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:quick-reflex": {
+   "value": 31811,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:small-reflex": {
+   "value": 7447,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:wait-click": {
+   "value": 0.3983,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:wait-flick": {
+   "value": 0.783,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:wait-pair": {
+   "value": 1.1315,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:wait-trio": {
+   "value": 1.4966,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:clear-200": {
+   "value": 104,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:waves-150": {
+   "value": 75.001,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:drift-200": {
+   "value": 10584,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:chase-fast": {
+   "value": 3567,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:chase-steady": {
+   "value": 9086,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:chase-switch": {
+   "value": 1665,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:chase-strafe": {
+   "value": 1023,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:orbit-chaos": {
+   "value": 44131,
+   "snapshotDate": "2026-10-22"
+  },
+  "official:speed-up": {
+   "value": 42414,
+   "snapshotDate": "2026-10-22"
+  }
+ }
+}

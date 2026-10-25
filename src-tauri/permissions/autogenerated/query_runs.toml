@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-query-runs"
+description = "Enables the query_runs command without any pre-configured scope."
+commands.allow = ["query_runs"]
+
+[[permission]]
+identifier = "deny-query-runs"
+description = "Denies the query_runs command without any pre-configured scope."
+commands.deny = ["query_runs"]
